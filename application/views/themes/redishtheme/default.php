@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-7">
-					<h1>Hair & <br>Beauty</h1>
+					<h1>RADIANCE <br>BEAUTY</h1>
 					<p>We are waiting for you. Please make an Appointment here.<p>
 					<?php if($added = $this->session->flashdata('added')){
 						$added_class = $this->session->flashdata('added_class');
@@ -215,8 +215,8 @@
 				<div class="col-xl-8 text-center mx-auto text-center">
 					<div class="galleryTitlesSection">
 						<h2>Services Gallery</h2>
-						<p>We've made a list of suggested activities based on your interests.Browse through our most popular
-						Hotels!Our Featured Tours can help you find the trip that's perfect for you!.</p>
+						<p>We've made a list of suggested services based on their popularity.Browse through our most popular services
+						.</p>
 					</div><!-- /.rt-section-title-wrapper- -->
 				</div><!-- /.col-lg-12 -->
 			</div>
@@ -263,7 +263,7 @@
 			<div class="row">
 				<div class="col-lg-7">
 					<h2>Get In Touch</h2>
-					<p>Any kind of travel information don't hesitate to contact with us for imiditate customer support. We are love to hear from you</p>
+					<p>Get in touch with us for any kind of information to get immediate customer support.We will love to hear from you!!</p>
 					<div class="alert alert-info" id="somethngwrng" style="display:none">Something wrong please try again.</div>
 					<div class="alert alert-success" id="submitedEmail" style="display:none">Your message sent successfully. We will contact you in 48 hrs.</div>
 					<form id="mailmesubmit" action="<?php echo base_url(HOMEPAGE_CONTROLLER.'/mailme') ?>" class="rt-form rt-line-form">

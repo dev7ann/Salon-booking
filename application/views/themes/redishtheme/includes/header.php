@@ -15,9 +15,6 @@
 								<li class="bdtn"><a href="<?php anchor_to('page/' . $page['permalink']) ?>"><?php echo esc($page['title'], true) ?></a></li>
 							<?php } } ?>
 							<li class="bdtn"><a href="<?php echo base_url('#contactUs'); ?>">Contact Us</a></li>
-							<?php if($blogStatus['bstatus'] == 1){ ?>
-								<li class="bdtn"><a href="<?php echo base_url(BLOG_CONTROLLER); ?>">Blog</a></li>
-							<?php } ?>
 						</ul>
 						<div class="mobile-menu">
 							<div class="menu-click">

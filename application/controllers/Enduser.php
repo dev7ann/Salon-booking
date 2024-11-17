@@ -1,4 +1,4 @@
-<?php defined('BASEPATH') OR exit('No direct script access allowed');
+w<?php defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Enduser extends CI_Controller {
 	
@@ -77,8 +77,8 @@ class Enduser extends CI_Controller {
 						'allowed_types' => 'gif|jpg|png|jpeg|svg',
 						'overwrite' => false,
 						'file_name'  => md5($this->page_data['user']['id']),
-						'max_width' => 1000,
-						'max_height' => 1000,
+						// 'max_width' => 1000,
+						// 'max_height' => 1000,
 					));
 
 					$success = $this->upload->do_upload('avatar');

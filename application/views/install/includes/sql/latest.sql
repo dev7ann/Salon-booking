@@ -26,12 +26,12 @@ CREATE TABLE `agents` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `agents` (`id`, `agentName`, `agentImage`, `experience`, `totalBookings`, `agentDetail`) VALUES
-(1, 'Michael', 'avatar1.jpg', '12', '1500', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. '),
-(2, 'Katelyn', 'avatar2.png', '5', '100', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. '),
-(3, 'Gloria', 'avatar3.png', '15', '150', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. '),
-(4, 'Ava', 'avatar4.png', '12', '12', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. '),
-(6, 'Emily', 'avatar5.png', '7', '15', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. '),
-(7, 'Amelia', 'avatar6.png', '3', '8', 'Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch this lieutenantgeneral I met he theory. Born the and he frequencies what spree. Select taking could neuter. Another, human the seven. Out to office into a to able moment. The that be watch. ');
+(1, 'Michael', 'avatar1.jpg', '7', '22', 'One of the best hairdresser in the city'),
+(2, 'Amos', 'avatar2.png', '5', '10', 'Favorite hairdresser in the city'),
+(3, 'Gloria', 'avatar3.png', '10', '23', 'One of the best hairdresser in the city'),
+(4, 'Mary', 'avatar4.png', '3', '30', 'One of the best hairdresser in the city'),
+(6, 'Emily', 'avatar5.png', '7', '15', 'When i say it is the best, i mean it is the best'),
+
 
 DROP TABLE IF EXISTS `analytics-settings`;
 CREATE TABLE `analytics-settings` (
@@ -114,7 +114,8 @@ CREATE TABLE `contactdetails` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `contactdetails` (`id`, `address`, `phone`, `email`, `map_src`, `map_wd`, `map_ht`, `urlFb`, `urlTwt`, `urlIn`) VALUES
-(1, 'Skippergata 33, 0154&lt;br&gt;\r\nOslo, Norway', '(123) 456 7892', 'desclix1@gmail.com', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d64033.28149209223!2d10.7247325!3d59.898285!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039:0x7e92605fd3231e9a!2sOslo, Norway!5e0!3m2!1sen!2s!4v1595953265617!5m2!1sen!2s', '100%', '582', '#fb', '#twt', '#in');
+(1, 'Nairobi, Kenya', '+25474293400', 'radiancebeauty254@gmail.com', 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d64033.28149209223!2d36.8219!3d-1.2921!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x176f7e5d1f3a3191:0x0!2sNairobi, Kenya!5e0!3m2!1sen!2s!4v1595953265617!5m2!1sen!2s', '100%', '582', 'https://www.facebook.com/radiancebeauty', 'https://twitter.com/radiancebeauty', 'https://www.linkedin.com/company/radiancebeauty');
+
 
 DROP TABLE IF EXISTS `gallery`;
 CREATE TABLE `gallery` (
@@ -133,15 +134,13 @@ INSERT INTO `gallery` (`id`, `imgName`, `imgDetails`, `imgPath`, `catId`) VALUES
 (22, 'Haircut 1', 'Haircut 1 Short Detail.&lt;br&gt;', 'haircut1.jpg', 8),
 (23, 'Haircut 2', 'Haircut 2 Short Detail.&lt;br&gt;', 'haircut2.jpg', 8),
 (24, 'Haircut 3', 'Haircut 3 Short Detail.&lt;br&gt;', 'haircut3.jpg', 8),
-(28, 'Spa 1', 'Spa 1 Short Detail.&lt;br&gt;', 'spa1.jpg', 9),
-(29, 'Spa 2', 'Spa 2 Short Detail.&lt;br&gt;', 'spa2.jpg', 9),
-(30, 'Spa 3', 'Spa 3 Short Detail.&lt;br&gt;', 'spa3.jpg', 9),
-(34, ' Nail Service 1', '&lt;p&gt;Nail service 1 Short Detail.&lt;/p&gt;', 'nail1.jpg', 10),
-(35, ' Nail Service 2', '&lt;p&gt;Nail service 2 Short Detail.&lt;/p&gt;', 'nail2.jpg', 10),
-(36, ' Nail Service 3', '&lt;p&gt;Nail service 3 Short Detail.&lt;/p&gt;', 'nail3.jpg', 10),
+(34, 'Nail Service 1', '&lt;p&gt;Nail service 1 Short Detail.&lt;/p&gt;', 'nail1.jpg', 10),
+(35, 'Nail Service 2', '&lt;p&gt;Nail service 2 Short Detail.&lt;/p&gt;', 'nail2.jpg', 10),
+(36, 'Nail Service 3', '&lt;p&gt;Nail service 3 Short Detail.&lt;/p&gt;', 'nail3.jpg', 10),
 (37, 'Makeup 1', '&lt;p&gt;Makeup 1 Short Detail.&lt;/p&gt;', 'makeup1.jpg', 11),
 (38, 'Makeup 2', '&lt;p&gt;Makeup 2 Short Detail.&lt;/p&gt;', 'makeup2.jpg', 11),
 (39, 'Makeup 3', '&lt;p&gt;Makeup 3 Short Detail.&lt;/p&gt;', 'makeup3.jpg', 11);
+
 
 DROP TABLE IF EXISTS `gcategory`;
 CREATE TABLE `gcategory` (
@@ -152,7 +151,7 @@ CREATE TABLE `gcategory` (
 INSERT INTO `gcategory` (`id`, `cName`) VALUES
 (7, 'Hair Design'),
 (8, 'Haircut'),
-(9, 'Spa'),
+
 (10, 'Nail Service'),
 (11, 'Makeup');
 
@@ -194,7 +193,7 @@ INSERT INTO `logintbl` (`id`, `fullName`, `email`, `password`, `verifiedEmail`, 
 (104, 'client1', 'client1@mail.com', '$2y$10$BUz2rDlMpqNRgnSFESJqMOBDNHL2b2k64bRza1s2TUBw7jIh6lbyq', 0, '', '', 0, '+923335754716', '', 0, 0, '60d99e7142530a930e74272e27069ecc', 0, 0, 0, '2020-07-29 15:35:24'),
 (105, 'client2', 'client2@mail.com', '$2y$10$BkGbW/vgUUH27AF6NQelEODBW8rNdzMCLDasy9FYaaW1mRz7fkpk.', 0, '', '', 0, '+926548765320', '', 0, 0, '9c8ef6ff34ddb86f06231664558ea160', 0, 0, 0, '2020-07-29 15:36:41'),
 (106, 'client3', 'client3@mail.com', '$2y$10$YnCp9ib20/kepaIiCNDpj.fuWqo9uYLfsuMNXb.lch3O3v6oHFgam', 0, '', '', 0, '00576654192048', '', 0, 0, '28dbf93f5d65e041000d1e47126419bf', 0, 0, 0, '2020-07-29 15:37:34'),
-(140, 'admin1', 'admin@gmail.com', '$2y$10$HzBQtLU2cn1J7COxXHkHee7cOHLh32z4iVOLz018jPqGWrlJc.H72', 0, '', '', 1, '', '', 0, 0, '', 0, 0, 0, '2020-08-03 06:07:48');
+(140, 'admin1', 'radiancebeauty@gmail.com', '$2y$10$HzBQtLU2cn1J7COxXHkHee7cOHLh32z4iVOLz018jPqGWrlJc.H72', 0, '', '', 1, '', '', 0, 0, '', 0, 0, 0, '2020-08-03 06:07:48');
 
 DROP TABLE IF EXISTS `meta-tags-settings`;
 CREATE TABLE `meta-tags-settings` (
@@ -262,10 +261,9 @@ CREATE TABLE `servicetable` (
 
 INSERT INTO `servicetable` (`id`, `title`, `description`, `price`, `servStart`, `servEnd`, `servDuration`, `servSpace`, `image`, `agentIds`) VALUES
 (19, 'Hair Design', '&lt;p&gt;You can book hair design service&lt;/p&gt;', 15.5, '09:00 AM', '05:00 PM', '02:30', 5, 'hairdesign41.jpg', '1,2,3,4'),
-(20, 'Haircut', '&lt;p&gt;You can easily boot haircut service.&lt;br&gt;&lt;/p&gt;', 4, '10:00 AM', '05:00 PM', '01:00', 10, 'haircut51.jpg', '2,3'),
-(21, 'Spa', '&lt;p&gt;You can book hair spa service.&lt;/p&gt;', 10.5, '08:00 AM', '04:00 PM', '01:00', 8, 'spa1.jpg', '7,4,1'),
-(25, 'new Test Title', 'new Test Title', 22, '08:00 AM', '05:00 PM', '01:00', 2, 'Screenshot_3.png', '7,6,4,3'),
-(26, 'New Test Service', '&lt;p&gt;New Content&lt;/p&gt;\r\n', 12, '08:00 AM', '05:05 PM', '02:00', 12, 'Screenshot_3.png', '6,2');
+(20, 'Haircut', '&lt;p&gt;You can easily boot haircut service.&lt;br&gt;&lt;/p&gt;', 4, '10:00 AM', '05:00 PM', '01:00', 10, 'haircut51.jpg', '1,2,3,4,5'),
+(21, 'makeup', '&lt;p&gt;You can book makeup service.&lt;/p&gt;', 10.5, '08:00 AM', '04:00 PM', '01:00', 8, 'spa1.jpg', '1,2,3,4,5'),
+(25, 'nails day', 'you can now book your nails spa day', 22, '08:00 AM', '05:00 PM', '01:00', 2, 'Screenshot_3.png', '1,2,3,4,5'),
 
 DROP TABLE IF EXISTS `smtp-settings`;
 CREATE TABLE `smtp-settings` (
@@ -279,7 +277,7 @@ CREATE TABLE `smtp-settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 INSERT INTO `smtp-settings` (`id`, `host`, `port`, `username`, `password`, `status`, `email`) VALUES
-(1, '', '', '', '', 0, 'desclix1@gmail.com');
+(1, '', '', '', '', 0, 'radiancebeauty@gmail.com');
 
 DROP TABLE IF EXISTS `social-keys-settings`;
 CREATE TABLE `social-keys-settings` (

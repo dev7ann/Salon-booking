@@ -63,7 +63,7 @@ $this->load->view('admin/includes/navbar'); ?>
 											<?php 
 												$agents = '';
 												foreach($serv['agentIds'] as $agNm) {
-												$agents .= $agNm['agentName'] . ', ';
+												$agents .= $agNm['agentName'] ?? null . ', ';
 												}
 												$agents = trim($agents, ', ');
 												echo esc($agents, true);
