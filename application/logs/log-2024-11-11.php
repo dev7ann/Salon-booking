@@ -16,7 +16,7 @@ ERROR - 2024-11-11 08:49:33 --> Severity: Notice --> Undefined variable: stripe 
 ERROR - 2024-11-11 08:49:33 --> Severity: Notice --> Trying to access array offset on value of type null C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 26
 ERROR - 2024-11-11 08:49:33 --> Severity: Notice --> Undefined variable: stripe C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 27
 ERROR - 2024-11-11 08:49:33 --> Severity: Notice --> Trying to access array offset on value of type null C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 27
-ERROR - 2024-11-11 08:50:03 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\Salon-Booking\system\libraries\Email.php 1888
+ERROR - 2024-11-11 08:50:03 --> Severity: Warning --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() C:\xampp\htdocs\Salon-Booking\system\libraries\Email.php 1888
 ERROR - 2024-11-11 08:50:03 --> Severity: Notice --> Undefined variable: stripe C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 26
 ERROR - 2024-11-11 08:50:03 --> Severity: Notice --> Trying to access array offset on value of type null C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 26
 ERROR - 2024-11-11 08:50:03 --> Severity: Notice --> Undefined variable: stripe C:\xampp\htdocs\Salon-Booking\application\views\themes\redishtheme\includes\head.php 27
