@@ -79,21 +79,9 @@
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
 							</span>
-							<h4 class="text-section">Blog</h4>
-                        </li>
-						<li class="nav-item <?php echo_if($uri == ADMINBLOG_CONTROLLER, 'active'); ?>">
-							<a href="<?php anchor_to(ADMINBLOG_CONTROLLER) ?>">
-								<i class="fas fa-th-large"></i>
-								<p>Blog Posts</p>
-							</a>
-						</li>
-						<li class="nav-section">
-							<span class="sidebar-mini-icon">
-								<i class="fa fa-ellipsis-h"></i>
-							</span>
 							<h4 class="text-section">Layout Settings</h4>
                         </li>
-						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/social_keys', 'active'); ?>">
+						<!-- <li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/social_keys', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/social_keys') ?>">
 								<i class="fas fa-key"></i>
 								<p>Social Login Keys</p>
@@ -104,26 +92,26 @@
 								<i class="fas fa-layer-group"></i>
 								<p>Page Settings</p>
 							</a>
-                        </li>
-						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/analytics', 'active'); ?>">
+                        </li> -->
+						<!-- <li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/analytics', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/analytics') ?>">
 								<i class="fas fa-chart-bar"></i>
 								<p>Analytics Settings</p>
 							</a>
-                        </li>
-						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/meta_tags', 'active'); ?>">
+                        </li> -->
+						<!-- <li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/meta_tags', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/meta_tags') ?>">
 								<i class="fas fa-code"></i>
 								<p>Meta Tags Settings</p>
 							</a>
-                        </li>
+                        </li> -->
 						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/email', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/email') ?>">
 								<i class="fas fa-at"></i>
 								<p>E-Mail Settings</p>
 							</a>
                         </li>
-						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/comment_settings', 'active'); ?>">
+						<!-- <li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/comment_settings', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/comment_settings') ?>">
 								<i class="fas fa-comments"></i>
 								<p>Comment Settings</p>
@@ -134,13 +122,13 @@
 								<i class="fas fa-unlock"></i>
 								<p>Recaptcha Settings</p>
 							</a>
-                        </li>
-						<li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/ads', 'active'); ?>">
+                        </li> -->
+						<!-- <li class="nav-item <?php echo_if($uri == LAYOUT_CONTROLLER . '/ads', 'active'); ?>">
 							<a href="<?php anchor_to(LAYOUT_CONTROLLER . '/ads') ?>">
 								<i class="fas fa-expand"></i>
 								<p>Ad Settings</p>
 							</a>
-						</li>
+						</li> -->
 						<li class="nav-section">
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
@@ -171,24 +159,24 @@
 								<p>All Payments</p>
 							</a>
 						</li>
-						<li class="nav-item <?php echo_if($uri == PAYMENTS_CONTROLLER . '/stripe', 'active'); ?>">
+						<!-- <li class="nav-item <?php echo_if($uri == PAYMENTS_CONTROLLER . '/stripe', 'active'); ?>">
 							<a href="<?php anchor_to(PAYMENTS_CONTROLLER . '/stripe') ?>">
 								<i class="fab fa-stripe"></i>
 								<p>Stripe Settings</p>
 							</a>
-						</li>
+						</li> -->
 						<li class="nav-section">
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
 							</span>
 							<h4 class="text-section">Other</h4>
                         </li>
-						<li class="nav-item <?php echo_if($uri == UPDATES_CONTROLLER . '/main', 'active'); ?>">
+						<!-- <li class="nav-item <?php echo_if($uri == UPDATES_CONTROLLER . '/main', 'active'); ?>">
 							<a href="<?php anchor_to(UPDATES_CONTROLLER . '/main') ?>">
 								<i class="fas fa-wrench"></i>
 								<p>Script Updates</p>
 							</a>
-                        </li>
+                        </li> -->
 						<li class="nav-item <?php echo_if($uri == GENERAL_CONTROLLER . '/purge_cache', 'active'); ?>">
 							<a href="<?php anchor_to(GENERAL_CONTROLLER . '/purge_cache') ?>">
 								<i class="fas fa-trash-alt"></i>
