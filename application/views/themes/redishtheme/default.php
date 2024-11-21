@@ -181,10 +181,11 @@
 									</div>
 								</div>
 								<div class="media mb-3">
+									<!-- neeed icon for money -->
 									<i class="icon-coin-dollar serviceInfoicon"></i>
 									<div class="media-body">
 										<p class="serviceInfoHeading">Price/person:</p>
-										<p class="serviceInfoValue">$<?php echo esc($servList['price'], true)?></p>
+										<p class="serviceInfoValue">Kes<?php echo esc($servList['price'], true)?></p>
 									</div>
 								</div>
 								<div class="media">
